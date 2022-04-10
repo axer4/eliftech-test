@@ -11,18 +11,26 @@
     {
       "name": "PrivatBank",
       "percent": "5",
-      "maxCredit": "100000000",
-      "minAvans": "50000",
+      "maxCredit": "2000000",
+      "minAvans": "35000",
       "creditTerm": "2025-04-10",
       "id": 2
     },
     {
       "name": "Alfa-bank",
       "percent": "1",
-      "maxCredit": "50000000",
+      "maxCredit": "3999998",
       "minAvans": "30000",
       "creditTerm": "2026-05-12",
       "id": 3
+    },
+    {
+      "name": "ПУМБ",
+      "percent": "7",
+      "maxCredit": "2500000",
+      "minAvans": "50020",
+      "creditTerm": "2024-04-10",
+      "id": 4
     }
   ]
 }

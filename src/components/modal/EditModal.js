@@ -31,7 +31,7 @@ const EditModal = ({ closeModal, isEditOpen }) => {
     const newData = { bankId: bankId, newData: bank };
     dispatch(operations.patchBank(newData))
     dispatch(editModalMode(!isEditOpen))
-    setTimeout(dispatch(operations.getBank()), 2000)
+    setTimeout(dispatch(operations.getBank()), 4000)
 
   }
   return (

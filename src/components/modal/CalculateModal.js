@@ -75,7 +75,8 @@ const CalculateModal = ({ closeModal }) => {
             placeholder={bank.maxCredit}
             name='takeCredit'
             onChange={onChangeInputHandler}
-            value={bank.takeCredit} />
+            value={bank.takeCredit}
+            required />
           <label htmlFor="firstAvans">Первый взнос: не меньше чем : {bank.minAvans}</label>
           <input
             id="firstAvans"
@@ -83,7 +84,8 @@ const CalculateModal = ({ closeModal }) => {
             placeholder={bank.minAvans}
             name='firstAvans'
             onChange={onChangeInputHandler}
-            value={bank.firstAvans} />
+            value={bank.firstAvans}
+            required />
           <label htmlFor='creditTerm'>Срок кредита :</label>
           <input
             id='creditTerm'
