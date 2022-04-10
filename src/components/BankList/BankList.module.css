@@ -1,0 +1,14 @@
+.button:hover {
+    background-color: rgb(224, 47, 47);
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+.list {
+    list-style: none;
+}
+.item {
+border: 1px solid silver;
+ box-shadow: 5px 10px 20px rgb(216, 198, 198);
+ border-radius: 15px;
+}

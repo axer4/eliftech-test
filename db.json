@@ -1,0 +1,28 @@
+{
+  "banks": [
+    {
+      "name": "MonoBank",
+      "percent": "2",
+      "maxCredit": "30000000",
+      "minAvans": "5000",
+      "creditTerm": "2022-12-05",
+      "id": 1
+    },
+    {
+      "name": "PrivatBank",
+      "percent": "5",
+      "maxCredit": "100000000",
+      "minAvans": "50000",
+      "creditTerm": "2025-04-10",
+      "id": 2
+    },
+    {
+      "name": "Alfa-bank",
+      "percent": "1",
+      "maxCredit": "50000000",
+      "minAvans": "30000",
+      "creditTerm": "2026-05-12",
+      "id": 3
+    }
+  ]
+}

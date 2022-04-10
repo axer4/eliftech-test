@@ -1,0 +1,32 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  .modal {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 20px 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+    width: 600px;
+    height: 300px;
+  }
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.button:hover {
+  background-color: rgb(224, 47, 47);
+  color: #ffffff;
+  cursor: pointer;
+}
